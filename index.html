@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Rohith Krishna – Manual & Automation QA Engineer specializing in travel domain, API testing, and Selenium automation." />
-  <title>Rohith Krishna | QA Engineer</title>
+  <meta name="description" content="Rohith Krishna R – Software QA Engineer specializing in Manual & Automation Testing, API Testing, and Travel Domain systems." />
+  <meta name="keywords" content="QA Engineer, Software Tester, Selenium, Postman, API Testing, Automation, Kerala" />
+  <title>Rohith Krishna R | Software QA Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -17,18 +18,24 @@
     <nav class="nav-container">
       <a href="#hero" class="nav-logo">
         <span class="logo-icon">RK</span>
-        <span>Rohith Krishna</span>
+        <span class="logo-text">Rohith Krishna</span>
       </a>
       <button class="hamburger" id="hamburger" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="nav-links">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#about"      class="nav-link">About</a></li>
+        <li><a href="#skills"     class="nav-link">Skills</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li><a href="mailto:rohithkrishhhr@gmail.com" class="nav-cta">Hire Me</a></li>
+        <li><a href="#projects"   class="nav-link">Projects</a></li>
+        <li><a href="#education"  class="nav-link">Education</a></li>
+        <li><a href="#certs"      class="nav-link">Certs</a></li>
+        <li><a href="#contact"    class="nav-link">Contact</a></li>
+        <li>
+          <a href="resume.pdf" download="Rohith_Krishna_Resume.pdf" class="nav-cta">
+            ⬇ Resume
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -36,41 +43,66 @@
   <!-- HERO -->
   <section id="hero">
     <canvas id="particles-canvas"></canvas>
+    <div class="hero-glow hero-glow-purple"></div>
+    <div class="hero-glow hero-glow-teal"></div>
+
     <div class="hero-inner">
-      <div class="hero-image-wrap">
-        <div class="hero-image-ring"></div>
-        <img src="profile.jpg" alt="Rohith Krishna" class="hero-img" />
+      <!-- Profile Image -->
+      <div class="hero-image-wrap reveal-left">
+        <div class="hero-image-frame">
+          <div class="frame-ring frame-ring-1"></div>
+          <div class="frame-ring frame-ring-2"></div>
+          <div class="frame-ring frame-ring-3"></div>
+          <img src="profile.jpg" alt="Rohith Krishna R" class="hero-img" />
+          <div class="img-overlay"></div>
+        </div>
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          Available for Work
+          Open to Opportunities
+        </div>
+        <div class="hero-social">
+          <a href="https://linkedin.com/in/rohithkrishhh" target="_blank" class="social-btn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com/rohith8085" target="_blank" class="social-btn" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="mailto:rohithkrishhhr@gmail.com" class="social-btn" title="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
         </div>
       </div>
-      <div class="hero-content">
-        <p class="hero-greeting">Hello, I'm</p>
-        <h1 class="hero-name">Rohith Krishna</h1>
+
+      <!-- Hero Text -->
+      <div class="hero-content reveal-right">
+        <p class="hero-greeting">👋 Hello, I'm</p>
+        <h1 class="hero-name">Rohith Krishna R</h1>
         <h2 class="hero-role">
-          <span class="typed-prefix">&lt;</span>
-          <span id="typing"></span>
-          <span class="cursor">|</span>
-          <span class="typed-prefix">/&gt;</span>
+          <span class="typed-prefix">&lt; </span><span id="typing"></span><span class="cursor">|</span><span class="typed-prefix"> /&gt;</span>
         </h2>
         <p class="hero-desc">
-          Manual &amp; Automation QA Engineer specializing in travel domain systems,
-          corporate booking tools, and API testing — ensuring every release is bulletproof.
+          A passionate <strong>Software QA Engineer</strong> and BSc Computer Science graduate from Kerala with proven expertise across the full testing spectrum — from meticulous manual test design to scalable Selenium automation frameworks. Specialised in travel-domain enterprise platforms, API validation, and AI-assisted quality workflows.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View My Work</a>
-          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          <a href="#contact"  class="btn btn-ghost">Contact  </a>
+          <a href="resume.pdf" download="Rohith_Krishna_Resume.pdf" class="btn btn-download">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
         </div>
         <div class="hero-stats">
-          <div class="stat"><span class="stat-num">25+</span><span class="stat-label">Apps Tested</span></div>
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">Companies</span></div>
           <div class="stat-divider"></div>
-          <div class="stat"><span class="stat-num">6+</span><span class="stat-label">Months Exp.</span></div>
+          <div class="stat"><span class="stat-num">40+</span><span class="stat-label">Apps Tested</span></div>
           <div class="stat-divider"></div>
-          <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Quality Focus</span></div>
+          <div class="stat"><span class="stat-num">4</span><span class="stat-label">Certifications</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">1.5+</span><span class="stat-label">Yrs Exp.</span></div>
         </div>
       </div>
     </div>
+
     <a href="#about" class="scroll-indicator" aria-label="Scroll down">
       <div class="scroll-dot"></div>
     </a>
@@ -79,60 +111,70 @@
   <!-- ABOUT -->
   <section id="about" class="section reveal">
     <div class="section-inner">
-      <div class="section-tag">Who I Am</div>
-      <h2 class="section-title">About Me</h2>
+      <span class="section-tag">Who I Am</span>
+      <h2 class="section-title">About <span>Me</span></h2>
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a <strong>Software QA Engineer</strong> at Caxita Tech Solutions, Kochi, with hands-on expertise in
-            manual testing, automation testing, and API validation across the travel technology domain.
+            I am a dedicated <strong>Software QA Engineer</strong> and BSc Computer Science graduate from the University Institute of Technology, Alappuzha. With a sharp analytical mindset and a deep commitment to quality, I have built a career ensuring that software systems perform flawlessly — from the first line of code to the final production release.
           </p>
           <p>
-            I've tested and validated <strong>25+ travel-based web applications</strong> — from corporate booking tools
-            and meta search engines to payment gateways and third-party integrations — ensuring every product ships
-            with zero critical defects.
+            My journey in quality assurance has taken me across diverse environments: intensive SDET training at QSpiders Kochi, real-world project delivery at Motionray Marketing Consultancy, and complex enterprise travel-tech systems at Caxita Tech Solutions — where I currently serve as a <strong>Junior Software Tester</strong> with 7+ months of hands-on experience.
           </p>
           <p>
-            My approach combines meticulous manual test cases with smart automation frameworks, giving teams
-            fast feedback loops without sacrificing coverage.
+            I specialize in designing comprehensive test strategies, crafting both manual and automated test suites, and building robust Selenium-based frameworks using the Page Object Model pattern. I have deep domain knowledge in travel technology — having tested flight booking engines, hotel reservation systems, car rental platforms, sports ticketing, travel packages, insurance modules, activities, and transfer management systems integrated with globally recognized GDS and OTA providers.
+          </p>
+          <p>
+            Beyond traditional QA, I stay ahead of the curve by actively leveraging <strong>AI tools and prompt engineering</strong> to supercharge testing productivity — from AI-generated test case suggestions to intelligent defect analysis workflows. I believe the future of QA lies at the intersection of human expertise and intelligent automation.
           </p>
           <div class="about-highlights">
             <div class="highlight-item">
               <span class="highlight-icon">🎯</span>
               <div>
-                <strong>Detail-Oriented</strong>
-                <p>I catch bugs others miss — from edge cases to pixel-level UI discrepancies.</p>
+                <strong>Zero-Defect Mindset</strong>
+                <p>I go beyond checklists — proactively identifying edge cases, race conditions, and integration gaps before they reach production.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🤖</span>
+              <div>
+                <strong>AI-Powered QA</strong>
+                <p>Proficient with AI tools like ChatGPT, Copilot, and Claude for accelerating test design, documentation, and defect analysis.</p>
               </div>
             </div>
             <div class="highlight-item">
               <span class="highlight-icon">⚡</span>
               <div>
-                <strong>Fast Learner</strong>
-                <p>Rapidly adapting to new tools, frameworks, and complex domain requirements.</p>
+                <strong>Automation-First Approach</strong>
+                <p>Building reusable, maintainable Selenium frameworks that cut regression time significantly without sacrificing coverage.</p>
               </div>
             </div>
             <div class="highlight-item">
               <span class="highlight-icon">🤝</span>
               <div>
-                <strong>Team Player</strong>
-                <p>Collaborating closely with developers and PMs to ship quality at speed.</p>
+                <strong>Collaborative Team Player</strong>
+                <p>Experienced in Agile/Scrum environments — working closely with developers, business analysts, and product managers to ship quality at speed.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="about-card glass-card">
-          <h3>Quick Facts</h3>
-          <ul class="facts-list">
-            <li><span class="fact-icon">📍</span> Kochi, Kerala, India</li>
-            <li><span class="fact-icon">🏢</span> Caxita Tech Solutions</li>
-            <li><span class="fact-icon">💼</span> Permanent Employee</li>
-            <li><span class="fact-icon">📧</span> rohithkrishhhr@gmail.com</li>
-            <li><span class="fact-icon">📞</span> +91 8590213613</li>
-            <li><span class="fact-icon">🌐</span> Open to Remote Roles</li>
-          </ul>
-          <a href="mailto:rohithkrishhhr@gmail.com" class="btn btn-primary" style="margin-top:1.5rem;display:inline-block;">
-            Download CV
-          </a>
+        <div class="about-sidebar">
+          <div class="about-card glass-card">
+            <h3>Quick Info</h3>
+            <ul class="facts-list">
+              <li><span class="fact-icon">📍</span><div><strong>Location</strong><span>Alappuzha, Kerala, India</span></div></li>
+              <li><span class="fact-icon">🎓</span><div><strong>Education</strong><span>BSc Computer Science</span></div></li>
+              <li><span class="fact-icon">🏢</span><div><strong>Current</strong><span>Caxita Tech Solutions</span></div></li>
+              <li><span class="fact-icon">📧</span><div><strong>Email</strong><span>rohithkrishhhr@gmail.com</span></div></li>
+              <li><span class="fact-icon">📞</span><div><strong>Phone</strong><span>+91 8590213613</span></div></li>
+              <li><span class="fact-icon">🔗</span><div><strong>LinkedIn</strong><a href="https://linkedin.com/in/rohithkrishhh" target="_blank">rohithkrishhh</a></div></li>
+              <li><span class="fact-icon">💻</span><div><strong>GitHub</strong><a href="https://github.com/rohith8085" target="_blank">rohith8085</a></div></li>
+              <li><span class="fact-icon">🌐</span><div><strong>Status</strong><span class="status-open">Open to Remote</span></div></li>
+            </ul>
+            <a href="resume.pdf" download="Rohith_Krishna_Resume.pdf" class="btn btn-primary btn-full" style="margin-top:1.5rem;">
+              ⬇ Download Resume (PDF)
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -141,79 +183,132 @@
   <!-- SKILLS -->
   <section id="skills" class="section section-alt reveal">
     <div class="section-inner">
-      <div class="section-tag">What I Know</div>
-      <h2 class="section-title">Technical Skills</h2>
+      <span class="section-tag">What I Know</span>
+      <h2 class="section-title">Technical <span>Skills</span></h2>
       <div class="skills-grid">
 
         <div class="skill-category glass-card">
           <div class="skill-cat-header">
-            <span class="skill-cat-icon">🧪</span>
-            <h3>Testing Types</h3>
+            <span class="skill-cat-icon">🧪</span><h3>Testing Expertise</h3>
           </div>
           <div class="skill-tags">
-            <span class="skill-tag">Manual Testing</span>
-            <span class="skill-tag">Automation Testing</span>
+            <span class="skill-tag hl">Manual Testing</span>
+            <span class="skill-tag hl">Automation Testing</span>
             <span class="skill-tag">Regression Testing</span>
             <span class="skill-tag">Smoke Testing</span>
             <span class="skill-tag">Sanity Testing</span>
             <span class="skill-tag">Integration Testing</span>
+            <span class="skill-tag">System Testing</span>
+            <span class="skill-tag">Unit Testing</span>
             <span class="skill-tag">UAT</span>
+            <span class="skill-tag">End-to-End Testing</span>
+            <span class="skill-tag">Exploratory Testing</span>
+            <span class="skill-tag">Boundary Value Analysis</span>
+            <span class="skill-tag">Equivalence Partitioning</span>
+            <span class="skill-tag">Cross-Browser Testing</span>
+            <span class="skill-tag">Negative Testing</span>
           </div>
         </div>
 
         <div class="skill-category glass-card">
           <div class="skill-cat-header">
-            <span class="skill-cat-icon">🛠️</span>
-            <h3>Tools & Frameworks</h3>
+            <span class="skill-cat-icon">🛠️</span><h3>Tools & Frameworks</h3>
           </div>
           <div class="skill-tags">
-            <span class="skill-tag highlight-tag">Selenium WebDriver</span>
-            <span class="skill-tag highlight-tag">Postman</span>
-            <span class="skill-tag">JIRA</span>
+            <span class="skill-tag hl">Selenium WebDriver</span>
+            <span class="skill-tag hl">Postman</span>
+            <span class="skill-tag hl">JUnit</span>
             <span class="skill-tag">TestNG</span>
             <span class="skill-tag">Maven</span>
-            <span class="skill-tag">Git</span>
-            <span class="skill-tag">Jenkins</span>
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">JIRA</span>
+            <span class="skill-tag">Jenkins (CI/CD)</span>
+            <span class="skill-tag">Eclipse IDE</span>
+            <span class="skill-tag">IntelliJ IDEA</span>
+            <span class="skill-tag">REST Assured</span>
+            <span class="skill-tag">Swagger</span>
+            <span class="skill-tag">MySQL Workbench</span>
           </div>
         </div>
 
         <div class="skill-category glass-card">
           <div class="skill-cat-header">
-            <span class="skill-cat-icon">💻</span>
-            <h3>Languages</h3>
+            <span class="skill-cat-icon">💻</span><h3>Languages & Proficiency</h3>
           </div>
           <div class="skill-bars">
             <div class="skill-bar-item">
-              <div class="skill-bar-label"><span>Java</span><span>75%</span></div>
+              <div class="skill-bar-label"><span>Core Java</span><span>80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>SQL</span><span>75%</span></div>
               <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
             </div>
             <div class="skill-bar-item">
-              <div class="skill-bar-label"><span>SQL</span><span>70%</span></div>
-              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+              <div class="skill-bar-label"><span>API Testing (REST)</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Selenium Automation</span><span>80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
             </div>
             <div class="skill-bar-item">
               <div class="skill-bar-label"><span>Python (Basics)</span><span>50%</span></div>
               <div class="skill-bar-track"><div class="skill-bar-fill" data-width="50"></div></div>
             </div>
-            <div class="skill-bar-item">
-              <div class="skill-bar-label"><span>HTML/CSS</span><span>65%</span></div>
-              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div>
-            </div>
           </div>
         </div>
 
         <div class="skill-category glass-card">
           <div class="skill-cat-header">
-            <span class="skill-cat-icon">✈️</span>
-            <h3>Domain Expertise</h3>
+            <span class="skill-cat-icon">🤖</span><h3>AI & Modern Skills</h3>
           </div>
           <div class="skill-tags">
-            <span class="skill-tag highlight-tag">Travel Tech</span>
-            <span class="skill-tag">GDS Systems</span>
-            <span class="skill-tag">Corporate Booking</span>
-            <span class="skill-tag">Meta Search</span>
-            <span class="skill-tag">Payment Flows</span>
-            <span class="skill-tag">API Validation</span>
+            <span class="skill-tag hl">Prompt Engineering</span>
+            <span class="skill-tag hl">AI-Assisted Testing</span>
+            <span class="skill-tag">ChatGPT / Claude / Copilot</span>
+            <span class="skill-tag">AI Test Case Generation</span>
+            <span class="skill-tag">LLM-based QA Workflows</span>
+            <span class="skill-tag">GitHub Copilot</span>
+            <span class="skill-tag">AI Bug Analysis</span>
+            <span class="skill-tag">Generative AI Tools</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">📋</span><h3>Methodologies</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag hl">Agile / Scrum</span>
+            <span class="skill-tag">Waterfall</span>
+            <span class="skill-tag">SDLC</span>
+            <span class="skill-tag">STLC</span>
+            <span class="skill-tag">Test Planning</span>
+            <span class="skill-tag">Test Case Design</span>
+            <span class="skill-tag">Bug Life Cycle</span>
+            <span class="skill-tag">Sprint Planning</span>
+            <span class="skill-tag">Daily Stand-ups</span>
+            <span class="skill-tag">Retrospectives</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">✈️</span><h3>Domain Expertise</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag hl">Travel Tech / OTA</span>
+            <span class="skill-tag">Flight Booking Systems</span>
+            <span class="skill-tag">Hotel Booking</span>
+            <span class="skill-tag">Car Rental</span>
+            <span class="skill-tag">Sports Ticketing</span>
+            <span class="skill-tag">Travel Packages</span>
+            <span class="skill-tag">Insurance Modules</span>
+            <span class="skill-tag">Activities & Transfers</span>
+            <span class="skill-tag">GDS Integration</span>
+            <span class="skill-tag">Payment Gateways</span>
+            <span class="skill-tag">Construction / ERP</span>
           </div>
         </div>
 
@@ -224,39 +319,146 @@
   <!-- EXPERIENCE -->
   <section id="experience" class="section reveal">
     <div class="section-inner">
-      <div class="section-tag">Where I've Worked</div>
-      <h2 class="section-title">Experience</h2>
+      <span class="section-tag">Where I've Worked</span>
+      <h2 class="section-title">Work <span>Experience</span></h2>
       <div class="timeline">
+
+        <!-- Caxita -->
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
+          <div class="timeline-dot tl-active"></div>
           <div class="timeline-card glass-card">
             <div class="timeline-header">
               <div class="company-logo-wrap">
-                <img src="caxita.svg" alt="Caxita Tech Solutions" class="company-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-                <div class="company-logo-fallback">CT</div>
+                <img src="https://caxita.com/images/caxitaLogo.svg" alt="Caxita" class="company-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <div class="company-logo-fallback" style="background:linear-gradient(135deg,#1a56db,#0ea5e9)">CT</div>
               </div>
-              <div>
-                <h3 class="company-name">Caxita Tech Solutions</h3>
-                <p class="company-role">Manual &amp; Automation Test Engineer</p>
+              <div class="timeline-meta">
+                <h3 class="company-name">Caxita Tech Solutions Pvt. Ltd.</h3>
+                <p class="company-role">Junior Software Tester</p>
                 <div class="company-meta">
                   <span class="meta-pill">📍 Kochi, Kerala</span>
-                  <span class="meta-pill">⏳ 6+ Months</span>
-                  <span class="meta-pill active-pill">● Permanent</span>
+                  <span class="meta-pill">🗓 09/2025 – Present</span>
+                  <span class="meta-pill active-pill">● 7+ Months Active</span>
                 </div>
               </div>
             </div>
             <div class="timeline-body">
-              <p>Working on enterprise-grade travel technology systems including corporate booking engines, meta search platforms, and GDS integrations serving thousands of daily users.</p>
+              <p>
+                Working on enterprise-grade travel technology platforms serving clients across 7+ countries. Caxita powers 40+ online travel portals and 20+ mobile apps — I am responsible for ensuring every release meets the highest quality standards across a broad ecosystem of integrations and modules.
+              </p>
               <ul class="timeline-list">
-                <li>Designed and executed 500+ test cases for booking workflows, payment flows, and API integrations</li>
-                <li>Built Selenium-based regression automation suite, reducing manual test time by 40%</li>
-                <li>Validated REST APIs using Postman — tested 100+ endpoints across multiple environments</li>
-                <li>Collaborated with cross-functional teams to reproduce, report, and track bugs in JIRA</li>
-                <li>Performed load and sanity testing across 25+ travel web applications</li>
+                <li>Testing and validating flight booking, hotel reservation, car rental, sports ticketing, packages, insurance, transfers, and activities modules end-to-end</li>
+                <li>Executed 1000+ manual test cases covering positive, negative, boundary, and exploratory scenarios across B2C and B2B platforms</li>
+                <li>Built and maintained a Selenium + TestNG + Maven automation framework using Page Object Model (POM) design pattern for regression testing</li>
+                <li>Validated 150+ REST API endpoints using Postman across DEV, QA, and UAT environments</li>
+                <li>Performed integration testing of GDS providers (Amadeus, Sabre, Galileo) and OTA payment gateways</li>
+                <li>Raised, tracked, and verified 300+ bugs in JIRA through the complete defect life cycle</li>
+                <li>Collaborated in daily Agile stand-ups and sprint ceremonies with cross-functional teams across Kochi and remote offices</li>
+                <li>Tested multi-currency and multi-language features across travel portals serving Middle East, Europe, and South Asia markets</li>
+              </ul>
+            </div>
+            <!-- Integration partners mini section -->
+            <div class="integration-mini">
+              <p class="integration-label">Integration Partners Tested:</p>
+              <div class="integration-tabs">
+                <button class="itab active" data-tab="flight">✈ Flights</button>
+                <button class="itab" data-tab="hotel">🏨 Hotels</button>
+                <button class="itab" data-tab="payment">💳 Payment</button>
+                <button class="itab" data-tab="other">🔗 Others</button>
+              </div>
+              <div class="integration-panel" id="tab-flight">
+                <div class="ip-grid">
+                  <img src="https://caxita.com/images/ip_flight_01.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_02.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_03.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_04.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_05.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_06.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_07.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_08.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_09.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_10.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_11.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_12.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_13.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_14.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_15.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_16.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_17.jpg" alt="Flight Partner"><img src="https://caxita.com/images/ip_flight_18.jpg" alt="Flight Partner">
+                </div>
+              </div>
+              <div class="integration-panel hidden" id="tab-hotel">
+                <div class="ip-grid">
+                  <img src="https://caxita.com/images/ip_hotel_01.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_02.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_03.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_04.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_05.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_06.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_07.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_08.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_09.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_10.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_11.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_12.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_13.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_14.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_15.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_16.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_17.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_18.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_19.jpg" alt="Hotel Partner"><img src="https://caxita.com/images/ip_hotel_20.jpg" alt="Hotel Partner">
+                </div>
+              </div>
+              <div class="integration-panel hidden" id="tab-payment">
+                <div class="ip-grid">
+                  <img src="https://caxita.com/images/ip_payment_01.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_02.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_03.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_04.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_05.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_06.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_07.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_08.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_09.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_10.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_11.jpg" alt="Payment"><img src="https://caxita.com/images/ip_payment_12.jpg" alt="Payment">
+                </div>
+              </div>
+              <div class="integration-panel hidden" id="tab-other">
+                <div class="ip-grid">
+                  <img src="https://caxita.com/images/ip_transfers_01.jpg" alt="Transfers"><img src="https://caxita.com/images/ip_insurance_01.jpg" alt="Insurance"><img src="https://caxita.com/images/ip_insurance_02.jpg" alt="Insurance"><img src="https://caxita.com/images/ip_insurance_03.jpg" alt="Insurance"><img src="https://caxita.com/images/ip_activities_01.jpg" alt="Activities"><img src="https://caxita.com/images/ip_others_01.jpg" alt="Other"><img src="https://caxita.com/images/ip_others_02.jpg" alt="Other"><img src="https://caxita.com/images/ip_others_03.jpg" alt="Other"><img src="https://caxita.com/images/ip_others_04.jpg" alt="Other"><img src="https://caxita.com/images/ip_others_05.jpg" alt="Other"><img src="https://caxita.com/images/ip_others_06.jpg" alt="Other">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Motionray -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div class="company-logo-wrap" style="background:linear-gradient(135deg,#ff6b35,#f7931e);border-radius:12px;">
+                <span style="font-weight:800;font-size:0.75rem;color:#fff;letter-spacing:-0.5px;padding:4px;">MR</span>
+              </div>
+              <div class="timeline-meta">
+                <h3 class="company-name">Motionray Marketing Consultancy</h3>
+                <p class="company-role">Junior Software Tester</p>
+                <div class="company-meta">
+                  <span class="meta-pill">📍 Malappuram, Kerala</span>
+                  <span class="meta-pill">🗓 02/2025 – 04/2025</span>
+                  <span class="meta-pill">⏳ 2 Months</span>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Worked as a Junior Software Tester at Motionray, a digital marketing and software consultancy. Handled manual testing and API testing responsibilities across client projects, with primary focus on the Al Nasiya construction management platform.
+              </p>
+              <ul class="timeline-list">
+                <li>Executed comprehensive manual test cases for the Al Nasiya construction site management system</li>
+                <li>Validated API endpoints for project tracking, resource allocation, and contractor management modules</li>
+                <li>Performed functional, regression, and UAT testing across multiple client web applications</li>
+                <li>Documented test results and raised defect reports with detailed reproduction steps</li>
+                <li>Collaborated with developers to verify bug fixes and validate new feature deployments</li>
+                <li>Tested responsive UI across desktop and mobile screen resolutions</li>
               </ul>
             </div>
           </div>
         </div>
+
+        <!-- QSpiders -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div class="company-logo-wrap" style="background:linear-gradient(135deg,#7c3aed,#4f46e5);border-radius:12px;padding:6px;">
+                <span style="font-weight:800;font-size:0.7rem;color:#fff;letter-spacing:-0.5px;">QS</span>
+              </div>
+              <div class="timeline-meta">
+                <h3 class="company-name">QSpiders – Software Testing Institute</h3>
+                <p class="company-role">Software Tester Trainee (SDET Program)</p>
+                <div class="company-meta">
+                  <span class="meta-pill">📍 Kochi, Kerala</span>
+                  <span class="meta-pill">🗓 06/2024 – 02/2025</span>
+                  <span class="meta-pill">⏳ 8 Months</span>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Completed an intensive 8-month SDET (Software Development Engineer in Test) training program at QSpiders Kochi — one of India's premier software testing institutes. Gained comprehensive, industry-aligned skills across the full testing spectrum.
+              </p>
+              <ul class="timeline-list">
+                <li>Completed SDET certification program covering Manual Testing, Automation Testing, and API Testing</li>
+                <li>Mastered Core Java fundamentals with focus on OOP concepts used in test automation</li>
+                <li>Trained in Selenium WebDriver with TestNG, Maven, and POM framework architecture</li>
+                <li>Learned REST API testing with Postman and REST Assured; practiced with real-world API scenarios</li>
+                <li>Studied SQL for database validation, query writing, and backend data verification</li>
+                <li>Practised Agile/Scrum methodology including sprint planning, daily stand-ups, and retrospectives</li>
+                <li>Earned certifications in SDET, API Testing, Core Java, and SQL upon successful completion</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -264,87 +466,195 @@
   <!-- PROJECTS -->
   <section id="projects" class="section section-alt reveal">
     <div class="section-inner">
-      <div class="section-tag">What I've Built</div>
-      <h2 class="section-title">Projects</h2>
+      <span class="section-tag">What I've Tested</span>
+      <h2 class="section-title">Key <span>Projects</span></h2>
       <div class="projects-grid">
-
-        <div class="project-card glass-card">
-          <div class="project-top">
-            <span class="project-icon">🏢</span>
-            <div class="project-links">
-              <span class="project-status">Completed</span>
-            </div>
-          </div>
-          <h3 class="project-title">Corporate Booking Tool</h3>
-          <p class="project-desc">
-            End-to-end QA of an enterprise travel booking platform — covering flight, hotel, and cab bookings
-            with approval workflows, policy enforcement, and multi-currency payments.
-          </p>
-          <div class="project-tags">
-            <span>Manual Testing</span>
-            <span>Selenium</span>
-            <span>JIRA</span>
-            <span>Postman</span>
-          </div>
-        </div>
 
         <div class="project-card glass-card featured-project">
           <div class="project-top">
-            <span class="project-icon">🔍</span>
-            <div class="project-links">
-              <span class="project-status status-featured">Featured</span>
-            </div>
+            <span class="project-icon">✈️</span>
+            <span class="project-status status-featured">⭐ Featured</span>
           </div>
-          <h3 class="project-title">Meta Search Engine</h3>
+          <h3 class="project-title">Caxita Travel Platform – Full Suite QA</h3>
+          <p class="project-company">Caxita Tech Solutions Pvt. Ltd. · Kochi</p>
           <p class="project-desc">
-            Validated real-time travel search results aggregated from multiple GDS and OTA APIs.
-            Tested result accuracy, sorting algorithms, price comparisons, and caching behavior.
+            End-to-end quality assurance for Caxita's flagship multi-module travel platform serving 40+ online portals globally. Tested the complete travel lifecycle across all verticals — from search and availability to booking, payment, confirmation, and post-booking management. Covered both B2C and B2B channels across web and mobile.
+          </p>
+          <div class="project-modules">
+            <span class="module-tag">✈ Flights</span>
+            <span class="module-tag">🏨 Hotels</span>
+            <span class="module-tag">📦 Packages</span>
+            <span class="module-tag">🏟 Sports</span>
+            <span class="module-tag">🚗 Car Rental</span>
+            <span class="module-tag">🚌 Transfers</span>
+            <span class="module-tag">🛡 Insurance</span>
+            <span class="module-tag">🎭 Activities</span>
+          </div>
+          <div class="project-tags">
+            <span>Selenium</span><span>Postman</span><span>TestNG</span><span>JIRA</span><span>API Testing</span><span>Maven</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-top">
+            <span class="project-icon">🏗️</span>
+            <span class="project-status">Motionray</span>
+          </div>
+          <h3 class="project-title">Al Nasiya – Construction Management System</h3>
+          <p class="project-company">Motionray Marketing Consultancy · Malappuram</p>
+          <p class="project-desc">
+            Full manual and API testing of "Al Nasiya", a construction site project management platform. Tested modules covering contractor management, project tracking, resource allocation, budget monitoring, and document workflows. Validated all API endpoints and ensured cross-module data consistency.
           </p>
           <div class="project-tags">
-            <span>API Testing</span>
-            <span>Postman</span>
-            <span>Performance</span>
-            <span>SQL</span>
+            <span>Manual Testing</span><span>API Testing</span><span>Postman</span><span>UAT</span><span>Regression</span>
           </div>
         </div>
 
         <div class="project-card glass-card">
           <div class="project-top">
             <span class="project-icon">🤖</span>
-            <div class="project-links">
-              <span class="project-status">Automation</span>
-            </div>
+            <span class="project-status">Automation</span>
           </div>
-          <h3 class="project-title">Selenium Automation Framework</h3>
+          <h3 class="project-title">Selenium POM Automation Framework</h3>
+          <p class="project-company">Personal / QSpiders Training → Caxita</p>
           <p class="project-desc">
-            Designed and implemented a Page Object Model based Selenium automation framework with TestNG,
-            Maven, and reporting integration for nightly regression runs.
+            Designed and implemented a scalable Page Object Model automation framework using Selenium WebDriver, Java, TestNG, and Maven. Integrated with Jenkins for CI/CD-triggered nightly regression runs. Framework reduced manual regression time by an estimated 40%.
           </p>
           <div class="project-tags">
-            <span>Selenium</span>
-            <span>Java</span>
-            <span>TestNG</span>
-            <span>Maven</span>
+            <span>Selenium</span><span>Java</span><span>TestNG</span><span>Maven</span><span>Jenkins</span><span>POM</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-top">
+            <span class="project-icon">🌐</span>
+            <span class="project-status">API Suite</span>
+          </div>
+          <h3 class="project-title">Travel API Validation Suite</h3>
+          <p class="project-company">Caxita Tech Solutions Pvt. Ltd.</p>
+          <p class="project-desc">
+            Comprehensive REST API testing suite built in Postman for validating 150+ endpoints across Caxita's GDS and OTA integration layer. Covered authentication, availability, booking, cancellation, and payment APIs with environment-specific collections for DEV, QA, and UAT.
+          </p>
+          <div class="project-tags">
+            <span>Postman</span><span>REST API</span><span>JSON</span><span>OAuth</span><span>Collections</span>
           </div>
         </div>
 
         <div class="project-card glass-card">
           <div class="project-top">
             <span class="project-icon">💳</span>
-            <div class="project-links">
-              <span class="project-status">Completed</span>
-            </div>
+            <span class="project-status">Payments</span>
           </div>
-          <h3 class="project-title">Payment Gateway Testing</h3>
+          <h3 class="project-title">Multi-Gateway Payment Testing</h3>
+          <p class="project-company">Caxita Tech Solutions Pvt. Ltd.</p>
           <p class="project-desc">
-            Comprehensive testing of multi-gateway payment integrations including card payments,
-            UPI, and wallet transactions across 10+ travel portals in staging and production.
+            Tested 18+ payment gateway integrations including credit/debit cards, UPI, net banking, and wallet transactions across Caxita's travel portals. Validated payment flows in multiple currencies for Middle East, Europe, and South Asia markets.
           </p>
           <div class="project-tags">
-            <span>Manual Testing</span>
-            <span>API Testing</span>
-            <span>Regression</span>
+            <span>Manual Testing</span><span>API Testing</span><span>Multi-Currency</span><span>Regression</span>
           </div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-top">
+            <span class="project-icon">🧠</span>
+            <span class="project-status status-ai">AI-Powered</span>
+          </div>
+          <h3 class="project-title">AI-Assisted Test Case Generation</h3>
+          <p class="project-company">Personal Initiative / Ongoing</p>
+          <p class="project-desc">
+            Developed a personal workflow using prompt engineering with ChatGPT and Claude to auto-generate comprehensive test scenarios from requirement documents. Reduced test case creation time while improving boundary condition coverage. Documented prompt templates for QA teams.
+          </p>
+          <div class="project-tags">
+            <span>Prompt Engineering</span><span>ChatGPT</span><span>Claude AI</span><span>Test Design</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section reveal">
+    <div class="section-inner">
+      <span class="section-tag">Academic Background</span>
+      <h2 class="section-title">Education</h2>
+      <div class="edu-timeline">
+
+        <div class="edu-card glass-card">
+          <div class="edu-year">2021 – 2024</div>
+          <div class="edu-icon">🎓</div>
+          <div class="edu-body">
+            <h3>B.Sc. Computer Science</h3>
+            <p class="edu-inst">University Institute of Technology</p>
+            <p class="edu-loc">📍 Alappuzha, Kerala, India</p>
+            <p class="edu-desc">Studied core computer science fundamentals including programming, data structures, algorithms, database management, software engineering, and networking. Developed a strong foundation in software development and quality methodologies that directly informed my QA career path.</p>
+          </div>
+        </div>
+
+        <div class="edu-card glass-card">
+          <div class="edu-year">2019 – 2021</div>
+          <div class="edu-icon">📚</div>
+          <div class="edu-body">
+            <h3>Higher Secondary – Computer Science</h3>
+            <p class="edu-inst">Aravukad HSS</p>
+            <p class="edu-loc">📍 Alappuzha, Kerala, India</p>
+            <p class="edu-desc">Completed higher secondary education with Computer Science as specialisation. Built foundational programming skills and logical problem-solving abilities that laid the groundwork for a technology career.</p>
+          </div>
+        </div>
+
+        <div class="edu-card glass-card">
+          <div class="edu-year">2018 – 2019</div>
+          <div class="edu-icon">🏫</div>
+          <div class="edu-body">
+            <h3>Higher Studies (SSLC)</h3>
+            <p class="edu-inst">Kakkazhom HS</p>
+            <p class="edu-loc">📍 Alappuzha, Kerala, India</p>
+            <p class="edu-desc">Completed secondary school education with strong academic performance, developing analytical and mathematical skills as a foundation for future computer science studies.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certs" class="section section-alt reveal">
+    <div class="section-inner">
+      <span class="section-tag">Credentials</span>
+      <h2 class="section-title">Certifications & <span>Achievements</span></h2>
+      <div class="certs-grid">
+
+        <div class="cert-card glass-card">
+          <div class="cert-badge">🏆</div>
+          <h3>SDET Certification</h3>
+          <p class="cert-issuer">QSpiders, Kochi</p>
+          <p class="cert-desc">Certified Software Development Engineer in Test — covering the complete test automation lifecycle with Selenium, Java, TestNG, and Agile practices.</p>
+          <span class="cert-pill">Software Testing</span>
+        </div>
+
+        <div class="cert-card glass-card">
+          <div class="cert-badge">🔗</div>
+          <h3>API Testing Certification</h3>
+          <p class="cert-issuer">QSpiders, Kochi</p>
+          <p class="cert-desc">Certified in REST API testing methodologies, Postman collections, environment management, authentication testing, and contract validation.</p>
+          <span class="cert-pill">API / Postman</span>
+        </div>
+
+        <div class="cert-card glass-card">
+          <div class="cert-badge">☕</div>
+          <h3>Core Java Certification</h3>
+          <p class="cert-issuer">QSpiders, Kochi</p>
+          <p class="cert-desc">Certified in Core Java with deep focus on OOP principles, collections, exception handling, and writing clean, reusable automation code.</p>
+          <span class="cert-pill">Java / OOP</span>
+        </div>
+
+        <div class="cert-card glass-card">
+          <div class="cert-badge">🗄️</div>
+          <h3>SQL Certification</h3>
+          <p class="cert-issuer">QSpiders, Kochi</p>
+          <p class="cert-desc">Certified in SQL for database testing — including joins, subqueries, stored procedures, and backend data validation for QA workflows.</p>
+          <span class="cert-pill">SQL / Database</span>
         </div>
 
       </div>
@@ -354,46 +664,52 @@
   <!-- CONTACT -->
   <section id="contact" class="section reveal">
     <div class="section-inner">
-      <div class="section-tag">Let's Talk</div>
-      <h2 class="section-title">Get In Touch</h2>
+      <span class="section-tag">Let's Connect</span>
+      <h2 class="section-title">Get In <span>Touch</span></h2>
       <div class="contact-grid">
         <div class="contact-info">
           <p class="contact-intro">
-            Looking for a dedicated QA Engineer? I'm open to full-time roles, freelance projects,
-            and consulting opportunities in QA and testing.
+            Looking for a detail-oriented QA Engineer who can hit the ground running? Whether it's a full-time role, freelance testing project, or a consulting engagement — I'd love to hear from you.
           </p>
           <div class="contact-cards">
             <a href="mailto:rohithkrishhhr@gmail.com" class="contact-card glass-card">
-              <span class="contact-card-icon">✉️</span>
-              <div>
-                <strong>Email</strong>
-                <p>rohithkrishhhr@gmail.com</p>
-              </div>
+              <span class="cc-icon">✉️</span>
+              <div><strong>Email</strong><p>rohithkrishhhr@gmail.com</p></div>
             </a>
             <a href="tel:+918590213613" class="contact-card glass-card">
-              <span class="contact-card-icon">📞</span>
-              <div>
-                <strong>Phone</strong>
-                <p>+91 8590213613</p>
-              </div>
+              <span class="cc-icon">📞</span>
+              <div><strong>Phone</strong><p>+91 8590213613</p></div>
+            </a>
+            <a href="https://linkedin.com/in/rohithkrishhh" target="_blank" class="contact-card glass-card">
+              <span class="cc-icon">💼</span>
+              <div><strong>LinkedIn</strong><p>linkedin.com/in/rohithkrishhh</p></div>
+            </a>
+            <a href="https://github.com/rohith8085" target="_blank" class="contact-card glass-card">
+              <span class="cc-icon">🐙</span>
+              <div><strong>GitHub</strong><p>github.com/rohith8085</p></div>
             </a>
             <div class="contact-card glass-card">
-              <span class="contact-card-icon">📍</span>
-              <div>
-                <strong>Location</strong>
-                <p>Kochi, Kerala, India</p>
-              </div>
+              <span class="cc-icon">📍</span>
+              <div><strong>Location</strong><p>Alappuzha, Kerala, India</p></div>
             </div>
           </div>
+          <a href="resume.pdf" download="Rohith_Krishna_Resume.pdf" class="btn btn-download" style="margin-top:2rem;display:inline-flex;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Full Resume (PDF)
+          </a>
         </div>
+
         <form class="contact-form glass-card" id="contact-form">
-          <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="John Doe" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="john@company.com" required />
+          <h3 style="margin-bottom:1.5rem;font-family:'Space Grotesk',sans-serif;font-size:1.1rem;">Send a Message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+            </div>
           </div>
           <div class="form-group">
             <label for="subject">Subject</label>
@@ -401,10 +717,10 @@
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project..." required></textarea>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project you have in mind..." required></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
-            <span id="btn-text">Send Message</span>
+            <span id="btn-text">Send Message ✉️</span>
           </button>
           <p class="form-note" id="form-msg"></p>
         </form>
@@ -417,13 +733,17 @@
     <div class="footer-inner">
       <div class="footer-brand">
         <span class="logo-icon">RK</span>
-        <span>Rohith Krishna</span>
+        <div>
+          <span class="footer-name">Rohith Krishna R</span>
+          <span class="footer-title">Software QA Engineer</span>
+        </div>
       </div>
-      <p class="footer-copy">© 2026 Rohith Krishna. Crafted with passion.</p>
+      <p class="footer-copy">© 2026 Rohith Krishna R · All rights reserved · Alappuzha, Kerala, India</p>
       <div class="footer-links">
+        <a href="https://linkedin.com/in/rohithkrishhh" target="_blank">LinkedIn</a>
+        <a href="https://github.com/rohith8085" target="_blank">GitHub</a>
         <a href="mailto:rohithkrishhhr@gmail.com">Email</a>
-        <a href="tel:+918590213613">Phone</a>
-        <a href="#hero">Back to Top ↑</a>
+        <a href="#hero">↑ Top</a>
       </div>
     </div>
   </footer>
